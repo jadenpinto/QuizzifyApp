@@ -1,0 +1,112 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "f86f421da0a21a5c0bbaf130f77b79ac",
+    "entities": [
+      {
+        "tableName": "questions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `question_text` TEXT NOT NULL, `subject` TEXT NOT NULL, `option_1` TEXT NOT NULL, `option_2` TEXT, `option_3` TEXT, `option_4` TEXT, `option_5` TEXT, `option_6` TEXT, `option_7` TEXT, `option_8` TEXT, `option_9` TEXT, `option_10` TEXT, `correct_answer` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionText",
+            "columnName": "question_text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "subject",
+            "columnName": "subject",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "option1",
+            "columnName": "option_1",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "option2",
+            "columnName": "option_2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option3",
+            "columnName": "option_3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option4",
+            "columnName": "option_4",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option5",
+            "columnName": "option_5",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option6",
+            "columnName": "option_6",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option7",
+            "columnName": "option_7",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option8",
+            "columnName": "option_8",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option9",
+            "columnName": "option_9",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "option10",
+            "columnName": "option_10",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "correctAnswer",
+            "columnName": "correct_answer",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f86f421da0a21a5c0bbaf130f77b79ac')"
+    ]
+  }
+}
