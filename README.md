@@ -39,16 +39,25 @@ Quizzify is an Android quiz application built using **Jetpack Compose** and the 
 
 ## Screenshots
 
-### On Open
+### Landing & Navigation
 <p float="left">
-  <img src="readme-assets/score_screen.jpg" width="45%" />
-  <img src="readme-assets/score_screen.jpg" width="45%" />
+  <img src="readme-assets/home_screen.jpg" width="30%" style="margin-right:10px;" />
+  <img src="readme-assets/start_quiz_no_question.jpg" width="30%" style="margin-right:10px;" />
+  <img src="readme-assets/empty_question_bank.jpg" width="30%" />
 </p>
 
-### Start Quiz
+### Add & Edit Questions
 <p float="left">
-  <img src="readme-assets/score_screen.jpg" width="45%" />
-  <img src="readme-assets/score_screen.jpg" width="45%" />
+  <img src="readme-assets/add_question_1.jpg" width="23%" style="margin-right:10px;" />
+  <img src="readme-assets/add_question_2.jpg" width="23%" style="margin-right:10px;" />
+  <img src="readme-assets/question_bank.jpg" width="23%" style="margin-right:10px;" />
+  <img src="readme-assets/edit_question.jpg" width="23%" />
+</p>
+
+### Quiz Session & Results
+<p float="left">
+  <img src="readme-assets/quiz_mode.jpg" width="30%" style="margin-right:10px;" />
+  <img src="readme-assets/score_screen.jpg" width="30%" />
 </p>
 
 ## Getting Started
