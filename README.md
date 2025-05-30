@@ -37,3 +37,8 @@ Quizzify is an Android quiz application built using **Jetpack Compose** and the 
 - Create questions with: Multiple options, a correct answer and a subject tag
 - View, edit, and delete existing questions
 - Play a quiz with: Randomised question order, with final score displayed at the end
+
+## Getting Started
+1. Clone the repository: `git clone http://github.com/jadenpinto/QuizzifyApp.git`
+2. Open the project in Android Studio
+3. Build and run the app on an emulator or physical device
